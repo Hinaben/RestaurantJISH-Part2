@@ -1,0 +1,151 @@
+﻿foodId,CategoryId,foodName,price,briefDescription,ingredients,foodImage
+1,1001001," agedashi tofu",4.95,crispy tofu + teriyaki sauce,xxx,1.jpg
+2,1001001,ebi shumai,5.95,"steamed shrimp dumplings
+",xxxx,2.jpg
+3,1001001,edamame,5.95,steamed + salted japanese soybean,xxxx,3.jpg
+4,1001001," yam tempura",5.95,crispy yam,xxxx,4.jpg
+5,1001001,beef enoki roll,6.95,crispy enoki mushroom beef wrapped with teriyaki sauce,xxx,5.jpg
+6,1001001,gyoza,6.95,crispy japanese veggie dumpling,xxx,6.jpg
+7,1001001,yakitori,6.95,chicken breast and vegetable skewer with teriyaki sauce,xxxx,7.jpg
+8,1001002,miso soup,1.95,Japanese soybean paste soup,xxxx,8.jpg
+9,1001002,wonton soup,2.95,Japanese veggie dumpling soup,xxxx,9.jpg
+10,1001002,clear soup,3.95,"tilapia, shrimp, veggie + clear broth",xxxx,10.jpg
+11,1001002,ebi shumai soup,5.95,shrimp dumpling + clear broth,xxxx,11.jpg
+12,1001003,moto garden salad,2.95,green salad with moto dressing,xxxx,12.jpg
+13,1001003,kimchi,3.95,"spicy pickled cabbage with cayenne pepper, garlic and ginger",xxx,13.jpg
+14,1001003,avocado salad,5.95,"avocado, green salad with moto dressing",xxx,14.jpg
+15,1001003,seaweed salad,6.95,seasoned seaweed salad,xxx,15.jpg
+16,1001003,sunomono salad,6.95,"crab, shrimp, octopus, seaweed with ponzu sauce",xxxx,16.jpg
+17,1001003,spicy tofu salad,7.95,spicy fresh tofu with veggie,xxx,17.jpg
+18,1001004,moto crunch noodle soup,6.95,"crunch, somyun noodle + moto broth",xxx,18.jpg
+19,1001004,veggie yaki soba,9.95,stir-fry noodle with veggie,xxxx,19.jpg
+20,1001004,chicken yaki soba,9.95,stir-fry noodle with chicken and veggie,xxx,20.jpg
+21,1001004,beef yaki soba,9.95,stir-fry noodle with beef and veggie,xxxx,21.jpg
+22,1001004,zaru soba,11.95,cool buckwheat noodle + soba sauce,xxx,22.jpg
+23,1001004,spicy seafood noodle soup,12.95,"seafood, veggie, udon noodle in spicy broth
+",xx,23.jpg
+24,1001005,avocado maki,3.95,avocado 6pcs,xxx,24.jpg
+25,1001005,avocado hand roll,2.95,avocado 1pc,xxx,25.jpg
+26,1001005,kappa maki,3.95,cucumber 6pcs,xxxx,26.jpg
+27,1001005,shiitake maki,4.95,shiitake mushroom 6pcs,xxxx,27.jpg
+28,1001005,shiitake hand roll,3.95,shiitake mushroom 1pc,xxxxx,28.jpg
+29,1001005,yummy yam roll maki,4.95,crispy sweet potato 6pcs,xxx,29.jpg
+30,1001005,yummy yam hand roll,3.95,crispy sweet potato 6pcs,xxxx,30.jpg
+31,1001005,california maki,5.95,"avocado, crab, cucumber + fish egg",xxx,31.jpg
+32,1001005,california hand roll,4.95," avocado, crab, cucumber + fish egg",xxx,32.jpg
+33,1001005,chicken teriyaki roll,5.95,chicken breast + teriyaki sauce 6pcs,xxxx,33.jpg
+34,1001005,salmon maki,5.95,fresh salmon 6pcs,xxxx,34.jpg
+35,1001005,salmon hand roll,4.95,fresh salmon 1pc,xxxx,35.jpg
+36,1001006,canada,9.95,cooked salmon + avocado on top teriyaki sauce 8pcs,xxx,36.jpg
+37,1001006,miami,9.95,"crab, cucumber + eel on top 8pcs",xxx,37.jpg
+38,1001006,tiger's tail,9.95," shrimp tempura inside and avocado, shrimp on top",xxx,38.jpg
+39,1001006,spider,10.95,"avocado, cucumber, fish egg + softshell crab 8pcs",xxx,39.jpg
+40,1001007,tofu teriyaki lunch,6.95,"crispy tofu, steamed rice + teriyaki sauce",xxx,40.jpg
+41,1001007,chicken teriyaki lunch,7.95,"chicken breast, steamed rice+ teriyaki sauc",xxx,41.jpg
+42,1001007,bulgogi lunch,7.95,marinated thinly sliced tender beef + steamed rice,xxxx,42.jpg
+43,1001007,beef donburi lunch,9.95,beef with veggie & egg omelette on rice,xxx,43.jpg
+44,1001007,sushi lunch,9.95,8pcs nigiri sushi +3pcs salmon mak,xxx,44.jpg
+45,1001009,"take sushi ",17.95,"10pcs nigiri sushi, 6 pcs california maki",xxx,45.jpg
+46,1001009,matsu sushi,28.95,"15pcs nigiri sushi, 12pcs maki",xxxxx,46.jpg
+47,1001009,small sushi,45.95,"24pcs nigiri sushi,18pcs maki",xx,47.jpg
+48,1001009,large sushi,65.95,"38pcs nigiri sushi,24pcs maki",xx,48.jpg
+49,1002010,calamari,9.99,"Lightly fried and served with spicy sweet ginger garlic sauce and Greek feta sauce 
+",xxx,49.jpg
+50,1002010,shrimp cocktail,10.99,"Greek feta sauce ",xxx,50.jpg
+51,1002010,bruschetta,9.99,Grilled bread rubbed with garlic and topped with tomato and vegetables,xxx,51.jpg
+52,1002010,chicken wings,10.99,"Tossed our original Sriracha Buffalo sauce ",xxx,52.jpg
+53,1002010,cheese nachos,9.99,Tortilla chips covered with cheese and has topped on top,xxx,53.jpg
+54,1002010,Half Rack Baby Ribs,11.99,half rack baby ribs served with fries,xx,54.jpg
+55,1002011,"Steak & pilaf with greens
+",19.99,Some braised filet topped by a maple-chipotle sauce,xx,55.jpg
+56,1002011,"Roasted Turkey Skillet Gravy Mix
+",19.99,"Rosted turkey skillet served with gravey and green beans
+",xx,56.jpg
+57,1002011,"French Steak
+",21.99,"Prime ribs topped with mertudital butter and sauteed vegitables
+",xx,57.jpg
+58,1002011,"Burger
+",13.99,"Hy's own fresh blend of chuck, brisket and sirloin. Crisp lettuce, tomato, red onion",xx,58.jpg
+59,1002011,"Steak  
+",17.99,"Steak served with mashroom on top and asparagus
+",xx,59.jpg
+60,1002012,"Blueberry Cheesecake
+",8.99,"Thick and creamy, topped with a fruit topping
+",xx,60.jpg
+61,1002012,"Brownie 
+",8.99,"A chocolate brownie with vanilla ice cream, hot fudge, caramel and whipped cream
+",xx,61.jpg
+62,1002012,"Dark Chocolate Cake
+",7.99,"warm callebaut cholocate sauce, french vanilla ice crea & shaved cholocate curls
+",xx,62.jpg
+63,1002012,"Lava Cake
+",7.49,"Creamy chocolatge mouse with chunks of cheesecake
+",xxx,63.jpg
+64,1002012,"Ice Cream
+",6.99,"Vaniella ice cream with cholocate fudge drizzel and cherry on top
+",xxx,64.jpg
+65,1002013,"Wine
+",6.99,"White or Red Wine
+",xx,65.jpg
+66,1002013,"Sangeria
+",7.99,"Smirnoff Green Apple vodka, St. Germain elderflower liqueur",xx,66.jpg
+67,1002013,"Margaritas
+",7.99,"Sauza Silver fresh-pressed Tequila, a hint of Grand Marnie",xx,67.jpg
+68,1002013,"Mojito
+",6.99,"Captain Morgon white rum, fresh mint, raspberry puree, pomegranate juice,",xx,68.jpg
+69,1002013,Martitni,7.99,"Gin or vodka, shaken or stirred, Green Olive
+",xx,69.jpg
+70,1003001,samosa,3.95,Flaky pastry stuffed with lightly spiced peas and potatoes,xx,70.jpg
+71,1003001,vegetable pakoras,3.95,A combination of vegetables fried in a chick-pea flour,xx,71.jpg
+72,1003001,onion bajia,3.95,Onion fritters (best with drinks and Aperitifs,xx,72.jpg
+73,1003001,"Vegetable Spring Roll
+
+",3.95,Filled with Indian style vegetables and fried,xx,73.jpg
+74,1003001,Chicken Pakoras,5.95,Chicken marinated with spices and batter fried,xx,74.jpg
+75,1003001,Chicken Cocktail Kabob,7.95,Chunky pieces of chicken reshmi kabob cooked in light gravy,xx,75.jpg
+76,1003002,Veggie,5.49,"Samosa, onion bhajia, veggie pakoras and spring roll",xx,76.jpg
+77,1003002,Non-veggie,5.49,"Samosa, chicken pakoras, Reshmi Kabob and veggie pakoras",xx,77.jpg
+78,1003003,Tandoori Chicken,20.95,"Whole chicken marinated overnight with spices and yogurt ",xx,78.jpg
+79,1003003,Reshmi Kabab,11.95,"Minced chicken marinated in fresh ginger, onion and spices, threaded on to skewers ",xx,79.jpg
+80,1003003,Chicken Tikka,12.95,Boneless pieces of white meat chicken marinated overnight with spices grilled over clay oven,xx,80.jpg
+81,1003003,Jumbo Prawn Tandoor,17.95,"Large, juicy jumbo prawn cooked in our tandoori oven and marinated in delicious spices ",xx,81.jpg
+82,1003005,Pulao Rice,4.49,Basmati rice seasoned with spices and steamed,xx,82.jpg
+83,1003005,Kashmiri Pulao,6.95,Long grain basmati rice cooked with fruits and nuts,xx,83.jpg
+84,1003005,Peas Pulao,6.95,"Basmati rice cooked with green peas, onions, and spices",xx,84.jpg
+85,1003005,Chicken Biriyani,12.95,Boneless chicken marinated with spices and cooked with basmati rice,xx,85.jpg
+86,1003005,Lamb or Beef Biriyani,12.95,"Chunks of beef or lamb, marinated with spices and steamed with rice",xx,86.jpg
+87,1004001,half&half,12.55,half spicy half normal,xxx,87.jpg
+88,1004001,original,12.55,normal soup,xxx,88.jpg
+89,1004001,three in one,13.55,three flavor,xx,89.jpg
+90,1004001,seafood,25.55,all sea foods put in the soup,xx,90.jpg
+91,1004001,house spicy,12.55,super super spicy,xx,91.jpg
+92,1004003,Supreme Lamb Shoulder,12.99,lamb,xx,92.jpg
+93,1004003,Premium Lamb Leg,12.99,lamb,xx,93.jpg
+94,1004003,Supreme Angus Beef,13.22,beaf,xx,94.jpg
+95,1004003,"Kobe Beef Ribeye
+",13.55,beaf,xx,95.jpg
+96,1004003,Chicken Breast Slice,12.22,chicken,xx,96.jpg
+97,1004003,Pork Belly,11.22,pork,xx,97.jpg
+98,1004003,Beef Tripe,7.88,tripe,xx,98.jpg
+99,1004003,Pork Kidney,7.88,kidney,xx,99.jpg
+100,1004003,pork blood,4.55,blood,xx,100.jpg
+101,1004003,use Lamb Meatballs,12.22,meat ball,xx,101.jpg
+102,1004003,House Beef Meatballs,12.22,meat ball,xx,102.jpg
+103,1004002,Tiger Shrimp Shell-off,15.99,fresh big shrimp,xx,103.jpg
+104,1004002,House Shrimp Paste,12.99,fresh shrimp with traditional flavour,xx,104.jpg
+105,1004002,Fresh Calamari,13.22,calamari,xx,105.jpg
+106,1004002,Fresh Fish Fillet,9.99,fish slice,xx,106.jpg
+107,1004002,House Fish Balls,9.99,fish ball,xx,107.jpg
+108,1004004,Sugar Pea Sprouts,5.55,green,xx,108.jpg
+109,1004004,Napa Cabbage,5.55,green,xx,109.jpg
+110,1004004,Tong Ho,5.55,green,xx,110.jpg
+111,1004004,Baby Bok Choy,5.55,green,xx,111.jpg
+112,1004004,Potato,6.55,potato,xx,112.jpg
+113,1004004,Baby Bamboo Shoots,7.88,bamboo,xx,113.jpg
+114,1004004,Sweet Corn,5.66,corn,xx,114.jpg
+115,1004005,Seaweed Salad,6.66,salad with seaweed and sweety taste,xx,115.jpg
+116,1004005,Sesame Pancake,7.88,pancake,xx,116.jpg
+117,1004005,House Lamb Dumplings,6.77,hot dumpling,xx,117.jpg
+118,1004005,Mongolian Beef Skewers,3,beef,xx,118.jpg
+119,1004005,Cucumber Salad,5.55,salad,xx,119.jpg
+120,1004006,lemon water,2,water,xx,120.jpg

@@ -1,0 +1,69 @@
+﻿@model RestaurantJISH_Part2.Models.menus
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>menus</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.foodName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.foodName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.briefDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.briefDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ingredients)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ingredients)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.foodId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.foodId)
+        </dd>
+
+    </dl>
+</div>
+<p class="button">
+    @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = Model.foodId }, "")
+</p>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.foodId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

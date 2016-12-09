@@ -1,0 +1,23 @@
+﻿CategoryId,RestaurantId,CategoryName
+1001001,1001,appetizer
+1001002,1001,soup
+1001003,1001,salad
+1001004,1001,noodle
+1001005,1001,maki & handroll
+1001006,1001,special maki
+1001007,1001,lunch
+1001009,1001,sushi combo
+1002010,1002,appetizer
+1002011,1002,mains
+1002012,1002,dessert
+1002013,1002,drink
+1003001,1003,appetizer
+1003002,1003,agra special mixed platter
+1003003,1003,agra tandoori specialties
+1003005,1003,rice
+1004001,1004,hot pot soup
+1004002,1004,seafood
+1004003,1004,meat
+1004004,1004,vegetables
+1004005,1004,sides
+1004006,1004,drink

@@ -1,0 +1,43 @@
+﻿@using RestaurantJISH_Part2.Models
+@using PagedList
+@using PagedList.Mvc
+@model menuDetailmodel
+<link href="~/Content/hoverpicturepartialview.css" rel="stylesheet" />
+
+@foreach (var item in Model.detailMenu)
+{
+    <div class="col-sm-4 col-lg-4 col-md-4" style="margin-top:20px">
+        <div class="thumbnail" style="height:260px">
+            <div class="hovereffect" style="height:120px;margin-bottom:20px">
+                <img class="picture-hover" src="~/assets/@item.foodCategory.RestaurantId/@item.foodItem.foodImage" alt="food picture" style="width:320px;height:120px">
+
+                <div class="overlay">
+                    <a class="info" data-toggle="modal" id="open-ModalDialog"
+                       data-foodname="@item.foodItem.foodName.ToUpper()" data-foodimage="@item.foodItem.foodImage"
+                       data-foodprice="@item.foodItem.price" data-resturantsid="@item.foodCategory.RestaurantId"
+                       data-description="@item.foodItem.briefDescription.First().ToString().ToUpper()@item.foodItem.briefDescription.Substring(1)"
+                       data-target="#myModal"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+
+            <div class="caption">
+                <h4 class="pull-right" style="margin-top:0px">$@item.foodItem.price</h4>
+                <h4>
+                    <span style="font-size:large;color:darkslateblue">@item.foodItem.foodName.ToUpper()</span>
+                </h4>
+                <p>@item.foodItem.briefDescription.First().ToString().ToUpper()@item.foodItem.briefDescription.Substring(1)</p>
+
+            </div>
+            <a class="btn btn-primary" style="bottom:30px;right:20px;position:absolute">+<i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    
+}
+    <div class="col-lg-12" >
+        <div class="col-lg-offset-5">
+        @Html.PagedListPager(Model.detailMenu, page => Url.Action("Menu", new { id = Model.restuarantInformation.RestaurantId, page }),
+       PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(new AjaxOptions() { HttpMethod = "GET", UpdateTargetId = "pagedListArea", InsertionMode = InsertionMode.Replace }))
+    </div>
+        </div>
+
