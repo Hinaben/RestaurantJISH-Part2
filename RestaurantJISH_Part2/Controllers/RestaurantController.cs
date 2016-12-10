@@ -15,11 +15,7 @@ namespace RestaurantJISH_Part2.Controllers
     {
         RestaurantEntities db = new RestaurantEntities();
 
-        public ActionResult Details()
-        {
-            var foodItem = new menus { foodName = "Rice ", price = 5.0, briefDescription = "rice", foodId = 1 };
-            return View(foodItem);
-        }
+       
         public ActionResult Index()
         {
 

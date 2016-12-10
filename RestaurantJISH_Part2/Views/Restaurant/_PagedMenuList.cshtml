@@ -30,6 +30,10 @@
 
             </div>
             <a class="btn btn-primary" style="bottom:30px;right:20px;position:absolute">+<i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></a>
+                
+            @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = item.foodItem.foodId }, "")
+                
+            
         </div>
     </div>
     
